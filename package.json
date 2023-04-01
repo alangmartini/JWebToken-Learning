@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "8.2.0",
+    "eslint-config-trybe-backend": "^2.1.0",
+    "mocha": "^10.0.0",
+    "mysql2": "2.1.0",
+    "sequelize": "6.3.4",
+    "sequelize-cli": "6.2.0",
+    "sinon": "^14.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "bcrypt": "^5.1.0",
+    "express": "4.17.1",
+    "fs-extra": "^11.1.1",
+    "gf-express-msc": "^1.0.7",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "9.0.0",
+    "nodemon": "^2.0.22",
+    "yargs": "^17.7.1"
+  },
+  "name": "normal",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
